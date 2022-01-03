@@ -1,23 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -26,13 +13,35 @@ p {
     color: #8F8F8F;
 }
 
-.container-fluid {
-    padding: 3% 15%;
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
-#title {
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
     background-color: #FF4C68;
     color: #FFF;
+}
+
+.white-section {
+    background-color: #FFF;
 }
 
 /* Navigation Bar */
@@ -62,6 +71,13 @@ p {
    margin: 5% 3% 5% 0; 
 }
 
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 /* Title Image */
 
 .title-image {
@@ -73,13 +89,11 @@ p {
 
 /* Features Section */
 
-#features {
-    padding: 7% 15%;
-    background-color: #FFF;
+.feature-title {
+    font-size: 1.5rem;
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -95,9 +109,12 @@ p {
 /* Testimonials */
 
 #testimonials {
-    text-align: center;
     background-color: #EF8172;
-    color: #FFF;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -106,13 +123,8 @@ p {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 #press {
     background-color: #EF8172;
-    text-align: center;
     padding-bottom: 3%;
 
 }
@@ -126,7 +138,11 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
@@ -135,26 +151,7 @@ p {
 
 /* Call To Action */
 
-#cta {
-    background-color: #FF4C68;
-    text-align: center;
-    color: #FFF;
-    padding: 7% 15%;
-}
-
-.cta-heading {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
 /* Footer */
-
-#footer {
-    padding: 7% 15%;
-    text-align: center;
-}
 
 .social-icon {
     margin: 20px 10px;
